@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* main wrapper (your div) */
+div {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* number */
+h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+/* buttons */
+button {
+  padding: 12px 28px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+button:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+}
+
+/* click */
+button:active {
+  transform: scale(0.95);
+}
